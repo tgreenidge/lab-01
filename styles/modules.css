@@ -45,3 +45,23 @@ aside + div > div:nth-child(5) {
 aside + div > div:nth-child(6) {
   background: mediumblue;
 }
+
+@media only screen and (max-width: 767px) {
+  aside + div > div:nth-child(1), 
+  aside + div > div:nth-child(2){
+    width: 480px;
+    height: 125px;
+    float: left;
+    text-align: center;
+  }
+
+  aside + div > div:nth-child(3), 
+  aside + div > div:nth-child(4),
+  aside + div > div:nth-child(5), 
+  aside + div > div:nth-child(6) {
+    width: 240px;
+    height: 250px;
+    float: left;
+    text-align: center;
+  }
+}
