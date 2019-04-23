@@ -1,0 +1,28 @@
+
+header {
+  height: 100px;
+  text-align: center;
+  background: magenta;
+}
+
+nav {
+  position: relative;
+  height: 100%;
+}
+nav p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  /* margin-right: -50%; */
+  transform: translate(50%, -50%); 
+}
+
+aside {
+  width: 200px;
+  height: 600px;
+  float: left;
+  background: maroon;
+  display: table;
+}
+
