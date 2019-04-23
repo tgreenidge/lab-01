@@ -1,0 +1,25 @@
+body {
+  max-width: 960px;
+  max-height: 700px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+footer {
+  width: 760px;
+  height: 150px;
+  float: right;
+  background: greenyellow;
+  display: table;
+}
+
+div {
+  display: table;
+}
+
+p {
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
